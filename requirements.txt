@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+scanpy
+matplotlib
+seaborn
+umap-learn
+tensorflow
+keras
+opencv-python
+Pillow
+statsmodels
+scipy
