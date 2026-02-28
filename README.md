@@ -1,4 +1,4 @@
-# PCOS Subtype & Trajectory Prediction Tool
+# PCOS and Subtype Prediction Tool
 
 This project analyzes **gene expression data** and **medical images** to classify **PCOS subtypes** and predict **disease**. It combines computational biology and machine learning.
 
