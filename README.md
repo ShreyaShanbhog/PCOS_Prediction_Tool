@@ -19,3 +19,13 @@ This project analyzes **gene expression data** and **medical images** to classif
 ```bash
 pip install -r requirements.txt
 python scripts/run_analysis.py
+```
+## Example Dataset
+
+The example dataset used for this project is available in the `data/` folder.  
+See `design_documents/datasets.md` for details.
+
+## Tutorial
+
+A step-by-step tutorial demonstrating the full pipeline is available here:  
+[happy_path.ipynb]
