@@ -26,3 +26,14 @@ def get_top_genes(model, gene_names, top_k=20):
         DataFrame containing the top genes and their importance scores.
         Columns: ['gene', 'importance']
     """
+    
+    importances = model.feature_importances_
+    
+    df = pd.DataFrame({
+        "gene": gene_names,
+        "importance": importances
+    })
+
+    df = df.sort_values("importance", ascending=False)
+    return df.head(top_k)
+    
