@@ -38,7 +38,3 @@ streamlit run app.py
 ## Dataset
 
 The example dataset is available in the `data/` folder. See [`dataset.md`](dataset.md) for full details.
-
-## License
-
-_Add license here._
